@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/_ui/GameOverScreen.uss?fileID=7433441132597879392&amp;guid=89b2902c3bff47b418cc052d699ab640&amp;type=3#GameOverScreen" />
+    <ui:VisualElement style="flex-grow: 1;" />
+    <ui:VisualElement style="flex-grow: 1;">
+        <ui:Label text="Game over" selectable="false" style="white-space: normal; height: 264px; position: relative; width: 721px; top: 0; left: 20%; font-size: 140px;" />
+        <ui:Button text="Restart" name="btRestart" style="width: 234px; left: 40%;" />
+    </ui:VisualElement>
+</ui:UXML>
